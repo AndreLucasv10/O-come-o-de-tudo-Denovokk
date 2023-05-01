@@ -1,0 +1,14 @@
+h2 a {
+  color: seagreen;
+  text-decoration: none;
+}
+p {
+  color: darkred;
+  font-size: 20px;
+}
+.amanha {
+  color: darkblue;
+}
+html {
+  font-family: Arial;
+}
