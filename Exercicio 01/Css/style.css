@@ -1,5 +1,5 @@
 h2 a {
-  color: seagreen;
+  color: rgb(110, 18, 163);
   text-decoration: none;
 }
 p {
@@ -11,4 +11,23 @@ p {
 }
 html {
   font-family: Arial;
+}
+#cinema {
+  background: rgb(110, 18, 163);
+  border-color: black;
+  margin: 10px;
+  height: 80px;
+  width: 140px;
+  border: 5px solid;
+  text-align: center;
+}
+#listas {
+  text-align: center;
+  background: rgb(93, 92, 95);
+  border: 10px solid;
+  border-inline-start-style: dashed;
+  border-radius: 20%;
+  width: 200px;
+  height: 140px;
+  padding: 5px;
 }
