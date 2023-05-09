@@ -3,6 +3,7 @@ html {
 }
 h1 {
   text-align: center;
+  margin: 50px;
 }
 span {
   color: #febe01;
@@ -11,14 +12,24 @@ a {
   color: #332200;
   background: #febe01;
   border-radius: 4px;
+  text-decoration: none;
+  padding: 10px;
+  font-size: large;
 }
-div {
+.produto {
   background-color: black;
   border-radius: 4px;
+  padding: 40px;
+  font-size: large;
+  margin: 20px;
+  line-height: 30px;
 }
 h2 {
   color: white;
 }
 p {
   color: gray;
+}
+body {
+  margin: 140px;
 }
