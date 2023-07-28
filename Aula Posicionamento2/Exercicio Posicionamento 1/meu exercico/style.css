@@ -49,11 +49,10 @@ h3 {
 }
 
 .grid {
-  max-width: auto;
+  max-width: 1000px;
   margin: 100px;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  background: #fff;
   border-radius: 8px;
 }
 
@@ -73,6 +72,7 @@ footer {
 }
 
 .vant {
+  background: white;
   font-size: 20px;
   padding: 20px;
 }
