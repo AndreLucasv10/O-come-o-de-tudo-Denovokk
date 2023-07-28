@@ -1,0 +1,189 @@
+body {
+  justify-items: center;
+  margin-top: 60px;
+  display: grid;
+  gap: 4rem;
+}
+
+html {
+  background: #f7f7f7;
+  font-family: Arial, Helvetica, sans-serif;
+}
+img {
+  max-width: 100%;
+  display: block;
+  height: 100%;
+  object-fit: cover;
+  object-position: top right;
+}
+
+h1 {
+  font-size: 2rem;
+  margin: 0px;
+}
+
+h3 {
+  margin: 0px;
+}
+
+p {
+  font-size: 1.25rem;
+  margin: 0px;
+}
+.title {
+  margin-top: 3;
+}
+
+.menu {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  place-content: center;
+  gap: 1.2rem;
+}
+
+.menu a {
+  text-transform: uppercase;
+  display: block;
+  text-align: center;
+  font-size: 1rem;
+  color: black;
+  text-decoration: none;
+  background: #fff;
+  padding: 16px 32px;
+  border-radius: 4px;
+  border: 2px solid transparent;
+}
+
+.menu a:hover {
+  border: solid red 2px;
+}
+
+.product {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 1000px;
+}
+
+.about {
+  background: white;
+  padding: 40px;
+  display: grid;
+  gap: 20px;
+  text-align: right;
+  place-content: center;
+  position: relative;
+}
+
+.product a {
+  text-decoration: none;
+  color: white;
+  background: #ee2211;
+  border-radius: 4px;
+  place-self: end;
+  padding: 16px 32px;
+}
+
+.product a:hover {
+  background: #a30000;
+}
+
+.product h2 {
+  background-image: url("./img/onda.svg");
+  margin: 0px;
+  text-transform: uppercase;
+  font-size: 4rem;
+  padding: 40px;
+  align-self: center;
+  text-align: end;
+  color: #c5c5c5;
+}
+
+.product h1::before {
+  content: "";
+  position: absolute;
+  width: 60px;
+  height: 4px;
+  margin: 1px;
+  background: #ee2211;
+  top: 2rem;
+  right: -2rem;
+}
+.product {
+  word-break: break-word;
+}
+.advantages {
+  background: white;
+  list-style: none;
+  padding: 20px;
+  margin: 0px;
+}
+
+.advantages li {
+  display: grid;
+  gap: 10px;
+  padding: 20px;
+  margin: 20px;
+  border-left: 4px solid transparent;
+}
+
+.advantages li p {
+  grid-column: 2;
+}
+
+.list:nth-child(odd) {
+  background: #f7f7f7;
+  border-left: 4px solid transparent;
+}
+
+.list:hover {
+  border-left: solid 4px #ee2211;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: white;
+  height: 5.62rem;
+  width: 100%;
+}
+
+footer p {
+  font-size: 1.5rem;
+  line-height: 1.3;
+}
+
+@media (max-width: 600px) {
+  body {
+    margin-top: 30px;
+    gap: 1rem;
+  }
+
+  .about{
+    text-align: center;
+  }
+  .advantages {
+    padding: 0';
+  }
+  .product {
+    grid-template-columns: 1fr;
+  }
+  .product h1::before {
+    display: none;
+  }
+  .menu {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .vantagens {
+    font-size: 3rem;
+    word-break: break-word;
+    align-self: center;
+    text-align: center;
+    max-width: 12ch;
+    padding: 0;
+  }
+}
